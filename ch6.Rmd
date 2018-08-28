@@ -1,6 +1,6 @@
 Chapter 6 - Stanford Stats Course
 ---------------------------------
-
+Back to the homepage https://clanrobin.github.io
 
 ```{r}
 library(ISLR)
