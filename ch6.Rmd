@@ -1,12 +1,6 @@
 Chapter 6 - Stanford Stats Course
 ---------------------------------
 
-Model Selection
-================
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages,
-and a very nice way of distributing an analysis. It has some very simple syntax rules.
-
 
 ```{r}
 library(ISLR)
