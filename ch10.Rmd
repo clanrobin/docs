@@ -34,6 +34,7 @@ which=sample(1:4,100,replace=TRUE)
 x=x+xmean[which,]
 plot(x,col=which,pch=19)
 ```
+
 We know the "true" cluster IDs, but we wont tell that to the `kmeans` algorithm.
 
 ```{r}
@@ -43,6 +44,9 @@ plot(x,col=km.out$cluster,cex=2,pch=1,lwd=2)
 points(x,col=which,pch=19)
 points(x,col=c(3,2,4,1)[which],pch=19)
 ```
+
+Ideally I'd get the points and the circles to match colours, but it seems R behaves a bit strangely here. What you need to look for are the two points which are misclassified. There is one from group 2 (left to right) that is mixed into group 1 and one from group 3 which is mixed into group 2.
+
 
 Hierarchical Clustering
 =======================
